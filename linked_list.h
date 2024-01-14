@@ -1,13 +1,13 @@
 /**
- * File:        ll_basecode.h
+ * File:        linked_list.h
  * Author:      Uku Kaarel Metspalu
  * Created:     29.05.2023
  * Modified:    01.06.2023
  *
  * Description: Header for the linked list .c file
  */
-#ifndef HOMEWORK_III_UKU_KAAREL_METSPALU_LINKED_LIST_H
-#define HOMEWORK_III_UKU_KAAREL_METSPALU_LINKED_LIST_H
+#ifndef LINKED_LIST_H
+#define LINKED_LIST_H
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -37,4 +37,4 @@ struct node *FindNodeByID(list *pHead, int id);
 char * GetName(void);
 int GetNodeId(void);
 
-#endif //HOMEWORK_III_UKU_KAAREL_METSPALU_LINKED_LIST_H
+#endif //LINKED_LIST_H
