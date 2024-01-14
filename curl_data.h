@@ -7,7 +7,7 @@
  * Description: Header file for retrieving xml data code file
  */
 
-#ifndf CURL_DATA_H
+#ifndef CURL_DATA_H
 #define CURL_DATA_H
 
 #include <curl/curl.h>
