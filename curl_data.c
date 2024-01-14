@@ -7,7 +7,7 @@
  * Description: Code file for retrieving xml data
  */
 
-#include "Homework_III_Uku_Kaarel_Metspalu_CurlData.h"
+#include "curl_data.h"
 
 /**
  * Description: Function to check if downloaded data is older than 1 hour.
