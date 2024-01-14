@@ -1,5 +1,5 @@
 /**
- * File:        Homework_III_Uku_Kaarel_Metspalu_Parse.c
+ * File:        parse.c
  * Author:      Uku Kaarel Metspalu
  * Created:     29.05.2023
  * Modified:    01.06.2023
@@ -7,7 +7,7 @@
  * Description: Code file for processing xml data
  */
 
-#include "Homework_III_Uku_Kaarel_Metspalu_Parse.h"
+#include "parse.h"
 
 /**
  * Description: Accesses xml data in order to display max and
