@@ -1,5 +1,5 @@
 /**
- * File:        Homework_III_Uku_Kaarel_Metspalu_Parse.h
+ * File:        parse.h
  * Author:      Uku Kaarel Metspalu
  * Created:     29.05.2023
  * Modified:    01.06.2023
@@ -7,8 +7,8 @@
  * Description: Header file for  xml data processing code file
  */
 
-#ifndef HOMEWORK_III_UKU_KAAREL_METSPALU_PARSE_H
-#define HOMEWORK_III_UKU_KAAREL_METSPALU_PARSE_H
+#ifndef PARSE_H
+#define PARSE_H
 
 #include <stdio.h>
 #include <string.h>
@@ -16,8 +16,8 @@
 #include <libxml/xmlmemory.h>
 #include <libxml/parser.h>
 #include <libxml/tree.h>
-#include "Homework_III_Uku_Kaarel_Metspalu_Main.h"
-#include "Homework_III_Uku_Kaarel_Metspalu_LinkedList.h"
+#include "main.h"
+#include "linked_list.h"
 
 int VerifyName(xmlDocPtr doc, xmlNodePtr cur, char *name);
 void StationsMultipleTraverse(xmlNodePtr cur, xmlDocPtr doc, list *pTemp);
@@ -30,4 +30,4 @@ char * MainParse(list *pHead, xmlDocPtr doc, int opFlag);
 void ParseStationDefault(xmlDocPtr doc, xmlNodePtr cur);
 void ParseStationCustom(xmlDocPtr doc, xmlNodePtr cur, list *pTemp);
 
-#endif //HOMEWORK_III_UKU_KAAREL_METSPALU_PARSE_H
+#endif //PARSE_H
