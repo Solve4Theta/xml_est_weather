@@ -1,5 +1,5 @@
 /**
- * File:        Homework_III_Uku_Kaarel_Metspalu_LinkedList.c
+ * File:        linked_list.c
  * Author:      Uku Kaarel Metspalu
  * Created:     29.05.2023
  * Modified:    01.06.2023
@@ -7,7 +7,7 @@
  * Description: Code file for linked list
  */
 
-#include "Homework_III_Uku_Kaarel_Metspalu_LinkedList.h"
+#include "linked_list.h"
 
 /**
  * Description: Checks via node name if is already in the linked list.
