@@ -1,5 +1,5 @@
 /**
- * File:        Homework_III_Uku_Kaarel_Metspalu_Main.c
+ * File:        main.c
  * Author:      Uku Kaarel Metspalu
  * Created:     29.05.2023
  * Modified:    01.06.2023
@@ -7,7 +7,7 @@
  * Description: Main code file for Homework III
  */
 
-#include "Homework_III_Uku_Kaarel_Metspalu_Main.h"
+#include "main.h"
 
 int main(void) 
 {
