@@ -1,5 +1,5 @@
 /**
- * File:        Homework_III_Uku_Kaarel_Metspalu_CurlData.h
+ * File:        curl_data.h
  * Author:      Uku Kaarel Metspalu
  * Created:     29.05.2023
  * Modified:    01.06.2023
